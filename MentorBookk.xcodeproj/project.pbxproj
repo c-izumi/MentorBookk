@@ -15,6 +15,10 @@
 		B45C6CDC246EDA4300401F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45C6CDA246EDA4300401F40 /* LaunchScreen.storyboard */; };
 		B45C6CE7246EDA4300401F40 /* MentorBookkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C6CE6246EDA4300401F40 /* MentorBookkTests.swift */; };
 		B45C6CF2246EDA4300401F40 /* MentorBookkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C6CF1246EDA4300401F40 /* MentorBookkUITests.swift */; };
+		B45C6D07246EDC1700401F40 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C6D06246EDC1700401F40 /* Mentor.swift */; };
+		B45C6D0B246EDE3B00401F40 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B45C6D08246EDE3B00401F40 /* nagata.jpg */; };
+		B45C6D0C246EDE3B00401F40 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B45C6D09246EDE3B00401F40 /* ryo.jpg */; };
+		B45C6D0D246EDE3B00401F40 /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B45C6D0A246EDE3B00401F40 /* taithi.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		B45C6CED246EDA4300401F40 /* MentorBookkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45C6CF1246EDA4300401F40 /* MentorBookkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookkUITests.swift; sourceTree = "<group>"; };
 		B45C6CF3246EDA4300401F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B45C6D06246EDC1700401F40 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
+		B45C6D08246EDE3B00401F40 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		B45C6D09246EDE3B00401F40 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		B45C6D0A246EDE3B00401F40 /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,9 @@
 		B45C6CCE246EDA4200401F40 /* MentorBookk */ = {
 			isa = PBXGroup;
 			children = (
+				B45C6D08246EDE3B00401F40 /* nagata.jpg */,
+				B45C6D09246EDE3B00401F40 /* ryo.jpg */,
+				B45C6D0A246EDE3B00401F40 /* taithi.JPG */,
 				B45C6CCF246EDA4200401F40 /* AppDelegate.swift */,
 				B45C6CD1246EDA4200401F40 /* SceneDelegate.swift */,
 				B45C6CD3246EDA4200401F40 /* ViewController.swift */,
@@ -106,6 +117,7 @@
 				B45C6CD8246EDA4300401F40 /* Assets.xcassets */,
 				B45C6CDA246EDA4300401F40 /* LaunchScreen.storyboard */,
 				B45C6CDD246EDA4300401F40 /* Info.plist */,
+				B45C6D06246EDC1700401F40 /* Mentor.swift */,
 			);
 			path = MentorBookk;
 			sourceTree = "<group>";
@@ -233,6 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45C6CDC246EDA4300401F40 /* LaunchScreen.storyboard in Resources */,
+				B45C6D0B246EDE3B00401F40 /* nagata.jpg in Resources */,
+				B45C6D0D246EDE3B00401F40 /* taithi.JPG in Resources */,
+				B45C6D0C246EDE3B00401F40 /* ryo.jpg in Resources */,
 				B45C6CD9246EDA4300401F40 /* Assets.xcassets in Resources */,
 				B45C6CD7246EDA4200401F40 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45C6CD4246EDA4200401F40 /* ViewController.swift in Sources */,
+				B45C6D07246EDC1700401F40 /* Mentor.swift in Sources */,
 				B45C6CD0246EDA4200401F40 /* AppDelegate.swift in Sources */,
 				B45C6CD2246EDA4200401F40 /* SceneDelegate.swift in Sources */,
 			);
